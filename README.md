@@ -1,4 +1,4 @@
-# Laravel 9 高度可配置的 Markdown 渲染器
+# Laravel 10 高度可配置的 Markdown 渲染器
 
 引入 spatie 的 laravel-markdown 套件來擴增高度可配置的 Markdown 渲染器，Markdown 是一種很方便的標記語言，可以使用 LATEX 語法顯示數學式子，也支援程式碼高亮度語法。
 
@@ -22,5 +22,5 @@ $ php artisan key:generate
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/yyegxj2.png)
+![](https://i.imgur.com/4aMlxUR.png)
 > 用來作為一種網路內容的寫作用語言
