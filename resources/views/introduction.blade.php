@@ -20,28 +20,28 @@
     <body class="antialiased">
         <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
             <x-markdown>
-# 全台 COVID-19 疫苗接種資訊
+# {{ __('Taiwan-wide COVID-19 vaccination information') }}
 
-## 📌資料彙整網站
-* 官方訊息：[國網-Covid-19 全球即時疫情地圖](https://covid-19.nchc.org.tw/index.php)
-* 報導者：[疫苗進行式：COVID-19 全球疫苗接種即時追蹤](https://www.twreporter.org/a/covid-19-vaccinations-across-the-world)
+## 📌 {{ __('Data aggregation websites') }}
+* {{ __('Official message: [National Covid-19 Global Real-Time Epidemic Map]') }}(https://covid-19.nchc.org.tw/index.php)
+* {{ __('Reporter: [Vaccine progress: COVID-19 global vaccination real-time tracking]') }}(https://www.twreporter.org/a/covid-19-vaccinations-across-the-world)
 
 ---
 
-### 📝施打二日自我檢測
-* 30 分鐘內
-    * 加壓止血 1-2 分鐘，切勿搓揉
-    * 留觀 15-30 分鐘
-    * 留意是否出現立即型嚴重過敏反應或休克
+### 📝 {{ __('Two-day self-test') }}
+* {{ __('Within 30 minutes') }}
+    * {{ __('Apply pressure to stop bleeding for 1-2 minutes, please do not rub') }}
+    * {{ __('Stay for 15-30 minutes') }}
+    * {{ __('Watch for immediate severe allergic reactions or shock') }}
  
-* 48 小時
-    * 定時量體溫並記錄
-    * 若有發燒疼痛可適當服用普拿疼
-    * 接種處疼痛可適當冰敷，每次 5 分鐘，1 天 3-4 次
-    * 多喝水（1 日 2000 cc）`洗腎病人不能多喝水，請依照醫師指示服用藥物`
-    * 多休息
-    * 均衡飲食
-    * 若出現意識改變、單側肢體乏力、呼吸困難、氣喘、暈眩、心跳加速或心律不整、全身紅疹、持續發燒 48 小時等現象，應儘速就醫。
+* {{ __('48 hours') }}
+    * {{ __('Take your temperature regularly and record it') }}
+    * {{ __('If you have a fever and pain, you can take Punaton appropriately') }}
+    * {{ __('If there is pain at the vaccination site, apply ice appropriately for 5 minutes, 3-4 times daily') }}
+    * {{ __('Drink more water (2000 cc per day) "Kidney dialysis patients cannot drink more water, please take medicine according to the doctor\'s instructions"') }}
+    * {{ __('Rest more') }}
+    * {{ __('Balanced diet') }}
+    * {{ __('Suppose you experience changes in consciousness, unilateral limb weakness, difficulty breathing, wheezing, dizziness, rapid heartbeat or irregular heartbeat, rash all over your body, or fever that lasts for 48 hours. In that case, you should seek medical attention as soon as possible.') }}
             </x-markdown>
         </div>
     </body>
